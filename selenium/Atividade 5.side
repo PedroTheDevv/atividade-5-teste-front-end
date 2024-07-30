@@ -1,0 +1,353 @@
+{
+  "id": "d1bc0750-4192-4ea9-b101-ce953fdc9ca3",
+  "version": "2.0",
+  "name": "Atividade 5",
+  "url": "https://cadastrocars.vercel.app",
+  "tests": [{
+    "id": "34495188-208b-4ec0-a926-68189ef613ea",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "0be479a1-a26d-4a72-858d-aec6df5b408e",
+    "name": "test1",
+    "commands": [{
+      "id": "b3cbc38e-050d-40c9-8b3c-f1c1f3729645",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "523a6a76-9c88-4cc6-9cd5-e62e9b719dd0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1053x799",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b64dd796-1756-4bcd-a8b8-22e9562ebdc9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cadastrar",
+      "targets": [
+        ["linkText=Cadastrar", "linkText"],
+        ["css=.button", "css:finder"],
+        ["xpath=//a[contains(text(),'Cadastrar')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/header/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/car')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62fc4d4e-5e79-40e4-b1c0-942b6eb19f1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brandField",
+      "targets": [
+        ["css=.brandField", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "804813d5-db73-4a29-8a34-ba2d7cd02457",
+      "comment": "",
+      "command": "select",
+      "target": "css=.brandField",
+      "targets": [],
+      "value": "label=Toyota"
+    }, {
+      "id": "e466a6b7-2acb-4cd2-bcca-735ca53fbede",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modelField",
+      "targets": [
+        ["css=.modelField", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24336c40-d813-4f8d-b1fb-d54338e2b245",
+      "comment": "",
+      "command": "type",
+      "target": "css=.modelField",
+      "targets": [
+        ["css=.modelField", "css:finder"],
+        ["xpath=//input[@value='Corolla']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Corolla"
+    }, {
+      "id": "5efd015b-16de-4ec2-b5bc-95dd98fcfef2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.yearField",
+      "targets": [
+        ["css=.yearField", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92e6aeb8-45fa-4bbc-8efd-52c1ba9f0f0e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.yearField",
+      "targets": [
+        ["css=.yearField", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "2011"
+    }, {
+      "id": "a3da67d8-6afb-4d41-a471-7b435b3a3c9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.priceField",
+      "targets": [
+        ["css=.priceField", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0f559fb-b24d-40e2-8a49-84818bf1ae76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kmField",
+      "targets": [
+        ["css=.kmField", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18e78ffd-1e6a-4650-91d8-afcdfc61cf91",
+      "comment": "",
+      "command": "type",
+      "target": "css=.kmField",
+      "targets": [
+        ["css=.kmField", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "100000"
+    }, {
+      "id": "6b7bcbe8-1f83-4e62-ac32-0ca8436b49ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.priceField",
+      "targets": [
+        ["css=.priceField", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a82f9b2-03fb-4de9-bc06-a0df156e72d0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.priceField",
+      "targets": [
+        ["css=.priceField", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "50000"
+    }, {
+      "id": "6143bba8-ac81-41e7-a0cb-dd7aee66e4f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.full",
+      "targets": [
+        ["css=.full", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "35570f9d-371b-4f8a-9625-5ec81ce28061",
+    "name": "test3",
+    "commands": [{
+      "id": "f8c68881-509e-4ef3-9a4c-4806f8411fed",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84003dd2-b959-4b76-9b7f-716bd7f8effd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3b7ab37-895a-4966-81c9-3d8bece74c26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.carItem:nth-child(1) .pointButton",
+      "targets": [
+        ["css=.carItem:nth-child(1) .pointButton", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "deaaceb2-2fa9-4ad3-a336-535e8193ee1f",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75ed3dda-5be0-4666-aeb9-976db4dfaf99",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pointWindowBtn:nth-child(2)",
+      "targets": [
+        ["css=.pointWindowBtn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[6]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec77ec3f-5d15-42d8-8418-8bbd61954ce7",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "Tem certeza que deseja excluir?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3b7d107-8209-424f-8057-0af492c86c2f",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0811dd57-adb5-40fa-9360-ce7761ec2ebf",
+    "name": "test2",
+    "commands": [{
+      "id": "8a6a9d52-ae82-4d68-b688-cfc33733d619",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "101b01f9-ff46-4341-832e-2e4248218551",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x798",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4d4ffc6-008f-43e9-9a73-823b4065f3b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.carItem:nth-child(1) .pointButton",
+      "targets": [
+        ["css=.carItem:nth-child(1) .pointButton", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f02f9541-969b-4f81-bbbb-72929e578726",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pointWindowBtn:nth-child(1)",
+      "targets": [
+        ["css=.pointWindowBtn:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div[6]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5979dd7f-4308-4eac-8390-65ee11456fae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.yearField",
+      "targets": [
+        ["css=.yearField", "css:finder"],
+        ["xpath=//input[@value='2022']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72403c35-7b12-49f1-8e2f-2e2fc34a4ee2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.yearField",
+      "targets": [
+        ["css=.yearField", "css:finder"],
+        ["xpath=//input[@value='2022']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "2020"
+    }, {
+      "id": "01262f87-ac20-4c2a-a560-a6b0593d93b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.priceField",
+      "targets": [
+        ["css=.priceField", "css:finder"],
+        ["xpath=//input[@value='140000']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c28d2b69-3b71-4c04-9b88-ead572329b6b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.priceField",
+      "targets": [
+        ["css=.priceField", "css:finder"],
+        ["xpath=//input[@value='140000']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "100000"
+    }, {
+      "id": "49a1fa65-5ead-4caa-9534-3100db07c59b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.full",
+      "targets": [
+        ["css=.full", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7c0a2d3d-263f-4c87-9497-0fa9dd25ad08",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["34495188-208b-4ec0-a926-68189ef613ea"]
+  }],
+  "urls": ["https://cadastrocars.vercel.app/"],
+  "plugins": []
+}
