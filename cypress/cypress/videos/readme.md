@@ -1,0 +1,1 @@
+videos do test2 e test3 dão erro pois é preciso forçar o teste manualmente durante o teste, e na gravação do vídeo não é possível fazer isso
